@@ -17,8 +17,15 @@ dataset可以選擇amazon, dblp, lj, youtube，相關的檔案有附在dataset�
 在執行前，先決定要做哪一個Neruel Network，把想要執行的那一行code的註解拿掉並且把上一輪執行的那一行註解起來就可以了。
 (例:假設執行完ReLU + two hidden layer後，接下來要測試SiLU + one hidden layer，把ReLU + two hidden layer那一行註解並且把SiLU + one hidden layer那行的註解拿掉即可。)
 
-
-
+```
+@inproceedings{wu2022clare,
+  title={CLARE: A Semi-supervised Community Detection Algorithm},
+  author={Wu, Xixi and Xiong, Yun and Zhang, Yao and Jiao, Yizhu and Shan, Caihua and Sun, Yiheng and Zhu, Yangyong and Philip S. Yu},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2022},
+  organization={ACM}
+}
+```
 
 
   
