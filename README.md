@@ -1,3 +1,22 @@
+# Cite
+
+```
+@inproceedings{wu2022clare,
+  title={CLARE: A Semi-supervised Community Detection Algorithm},
+  author={Wu, Xixi and Xiong, Yun and Zhang, Yao and Jiao, Yizhu and Shan, Caihua and Sun, Yiheng and Zhu, Yangyong and Philip S. Yu},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2022},
+  organization={ACM}
+}
+```
+原作者Github
+https://github.com/FDUDSDE/KDD2022CLARE
+
+
+
+
+
+
 # Environment setting
 
 實驗環境的部分，我們是使用anaconda去跑實驗，所以有附上environment.yaml和requirements.txt，兩種方式可以重現出我們做實驗的環境。主要是torch-geometric的版本，原作者使用的是2.3.1，但在我們安裝環境時，2.3.1會有一些bug，導致實驗無法順利進行，
@@ -17,15 +36,6 @@ dataset可以選擇amazon, dblp, lj, youtube，相關的檔案有附在dataset�
 在執行前，先決定要做哪一個Neruel Network，把想要執行的那一行code的註解拿掉並且把上一輪執行的那一行註解起來就可以了。
 (例:假設執行完ReLU + two hidden layer後，接下來要測試SiLU + one hidden layer，把ReLU + two hidden layer那一行註解並且把SiLU + one hidden layer那行的註解拿掉即可。)
 
-```
-@inproceedings{wu2022clare,
-  title={CLARE: A Semi-supervised Community Detection Algorithm},
-  author={Wu, Xixi and Xiong, Yun and Zhang, Yao and Jiao, Yizhu and Shan, Caihua and Sun, Yiheng and Zhu, Yangyong and Philip S. Yu},
-  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  year={2022},
-  organization={ACM}
-}
-```
 
 
   
